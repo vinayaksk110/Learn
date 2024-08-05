@@ -496,43 +496,6 @@ public class Testbase {
 		driver = new SafariDriver();
 	}
 
-	public boolean waitForElement(String element, String elementType) {
-		boolean waitResult = false;
-
-		if (elementType.equalsIgnoreCase("xpath")) {
-			try {
-				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(element)));
-				waitResult = true;
-			} catch (Exception e) {
-				System.out.println(e.getMessage());
-				return waitResult;
-			}
-		} else if (elementType.equalsIgnoreCase("id")) {
-			if (elementType.equalsIgnoreCase("id")) {
-				try {
-					wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(element)));
-					waitResult = true;
-				} catch (Exception e) {
-					System.out.println(e.getMessage());
-					return waitResult;
-				}
-			}
-
-		} else if (elementType.equalsIgnoreCase("name")) {
-			if (elementType.equalsIgnoreCase("name")) {
-				try {
-					wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(element)));
-					waitResult = true;
-				} catch (Exception e) {
-					System.out.println(e.getMessage());
-					return waitResult;
-				}
-			}
-
-		}
-		return waitResult;
-	}
-
 	public String getPublicIP() {
 		driver.navigate().to("http://botwhatismyipaddress.com/");
 		WebElement ipAddressWebElement = driver.findElement(By.xpath("//section[@class='main']//strong"));
