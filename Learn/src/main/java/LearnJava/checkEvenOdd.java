@@ -14,6 +14,7 @@ public class checkEvenOdd {
 		sc.close();
 		System.out.println("entered number is :" + num);
 
+		//% gives only the reminder 
 		if (num % 2 == 0)
 			System.out.println("number is even");
 		else
