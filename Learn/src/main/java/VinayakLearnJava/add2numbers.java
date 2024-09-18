@@ -1,4 +1,4 @@
-package LearnJava;
+package VinayakLearnJava;
 
 import java.util.Scanner;
 

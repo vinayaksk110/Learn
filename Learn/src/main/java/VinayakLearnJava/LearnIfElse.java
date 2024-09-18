@@ -1,4 +1,4 @@
-package LearnJava;
+package VinayakLearnJava;
 
 public class LearnIfElse {
 	
