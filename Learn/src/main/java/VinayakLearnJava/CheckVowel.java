@@ -2,10 +2,10 @@ package VinayakLearnJava;
 
 import java.util.Scanner;
 
-public class checkVowel {
+public class CheckVowel {
 
 	public static void main(String[] args) {
-		checkVowel cv = new checkVowel();
+		CheckVowel cv = new CheckVowel();
 		Scanner sc  = new Scanner(System.in);
 		System.out.println("enter the char to check");
 		cv.isvowelOrConsonant(sc.next().charAt(0));

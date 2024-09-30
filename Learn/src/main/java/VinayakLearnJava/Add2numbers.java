@@ -2,7 +2,7 @@ package VinayakLearnJava;
 
 import java.util.Scanner;
 
-public class add2numbers {
+public class Add2numbers {
 
 	static int x = 10;
 	int y = 20;
@@ -22,14 +22,14 @@ public class add2numbers {
 
 	public void addNumbers() {
 		// Object is created to use non static variable in static method
-		add2numbers object = new add2numbers();
+		Add2numbers object = new Add2numbers();
 		int z = x + object.y;
 		System.out.println("Addition fo 2 numbers is " + z);
 	}
 
 	public static void main(String[] args) {
 		// Object is created to use non static method in static method
-		add2numbers object1 = new add2numbers();
+		Add2numbers object1 = new Add2numbers();
 		
 		object1.addNumbers();
 		object1.scannerTest();

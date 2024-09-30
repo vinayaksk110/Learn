@@ -1,6 +1,6 @@
 package VinayakLearnJava;
 
-public class maxOf3Numbers {
+public class MaxOf3Numbers {
 
 	public static void main(String[] args) {
 		int num1 = 100;

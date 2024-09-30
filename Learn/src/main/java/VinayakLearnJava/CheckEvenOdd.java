@@ -2,7 +2,7 @@ package VinayakLearnJava;
 
 import java.util.Scanner;
 
-public class checkEvenOdd {
+public class CheckEvenOdd {
 
 	public static void main(String[] args) {
 		int num = 0;

@@ -1,6 +1,6 @@
 package VinayakLearnJava;
 
-public class printNumbersTriangle {
+public class PrintNumbersTriangle {
 
 	public static void main(String[] args) {
 		int row = 7;

@@ -2,7 +2,7 @@ package VinayakLearnJava;
 
 import java.util.Scanner;
 
-public class isLeapYear {
+public class IsLeapYear {
 
 //	A year is a leap year if “any one of ” the following conditions are satisfied: 
 //

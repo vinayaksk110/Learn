@@ -2,7 +2,7 @@ package VinayakLearnJava;
 
 import java.util.Scanner;
 
-public class importantNotes {
+public class ImportantNotes {
 
 	Scanner sc = new Scanner(System.in);
 	int y = sc.nextInt();

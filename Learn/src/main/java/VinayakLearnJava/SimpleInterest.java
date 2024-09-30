@@ -2,10 +2,10 @@ package VinayakLearnJava;
 
 import java.util.Scanner;
 
-public class simpleInterest {
+public class SimpleInterest {
 	
 	public static void main(String[] args) {
-		simpleInterest simple = new simpleInterest();
+		SimpleInterest simple = new SimpleInterest();
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the principle amount");
